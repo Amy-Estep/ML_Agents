@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1682262259",
+        "python_version": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\paul\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\mlagents-learn maze_config.yaml --run-id=freshtrainingset1 --resume",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.0+cpu",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1682262317"
+    },
+    "total": 58.2149534,
+    "count": 1,
+    "self": 0.031995999999992364,
+    "children": {
+        "run_training.setup": {
+            "total": 0.3401512999999996,
+            "count": 1,
+            "self": 0.3401512999999996
+        },
+        "TrainerController.start_learning": {
+            "total": 57.842806100000004,
+            "count": 1,
+            "self": 0.0013528000000064822,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 57.8414222,
+                    "count": 1,
+                    "self": 57.8414222
+                },
+                "trainer_threads": {
+                    "total": 3.4000000042055945e-06,
+                    "count": 1,
+                    "self": 3.4000000042055945e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.769999999685524e-05,
+                    "count": 1,
+                    "self": 2.769999999685524e-05
+                }
+            }
+        }
+    }
+}

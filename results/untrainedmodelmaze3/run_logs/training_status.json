@@ -1,0 +1,29 @@
+{
+    "MazeAgent": {
+        "checkpoints": [
+            {
+                "steps": 15732,
+                "file_path": "results\\untrainedmodelmaze3\\MazeAgent\\MazeAgent-15732.onnx",
+                "reward": -4.618865107496579,
+                "creation_time": 1682413679.440874,
+                "auxillary_file_paths": [
+                    "results\\untrainedmodelmaze3\\MazeAgent\\MazeAgent-15732.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15732,
+            "file_path": "results\\untrainedmodelmaze3\\MazeAgent.onnx",
+            "reward": -4.618865107496579,
+            "creation_time": 1682413679.440874,
+            "auxillary_file_paths": [
+                "results\\untrainedmodelmaze3\\MazeAgent\\MazeAgent-15732.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.0.0+cpu"
+    }
+}
